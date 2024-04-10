@@ -19,4 +19,10 @@ const blogStyle = {
 
 Today (10 April, 2024) I was reading Arpit's blog and I thought it would be nice if I could make it more readable. So I made this extension. Took less than 15 minutes to make it, thanks to claude sonnet.
 
+### Before
+<img width="500" height="300" src="https://github.com/rudrodip/fab/blob/main/.github/assests/before.png" />
+
+### After
+<img width="500" height="300" src="https://github.com/rudrodip/fab/blob/main/.github/assests/after.png" />
+
 Follow me on [Twitter](https://twitter.com/rds_agi) for more such updates
