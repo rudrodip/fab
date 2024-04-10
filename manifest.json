@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Fix Arpit's Blogs",
+  "version": "1.0",
+  "description": "Improves reading experience of Arpit Bhayani blogs",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://arpitbhayani.me/blogs/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icons/icon.png",
+      "32": "icons/icon.png",
+      "48": "icons/icon.png",
+      "128": "icons/icon.png"
+    }
+  }
+}
