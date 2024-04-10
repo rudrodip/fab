@@ -4,6 +4,8 @@ This is a fun little browser extension that I made to enhance blog reading exper
 
 It simply modifies some css properties of the blog to make it more readable and visually appealing.
 
+https://github.com/rudrodip/fab/assets/77154365/4d1261ba-20a9-472b-a2cd-f28cef85c73c
+
 This is all it takes to make it much more readable:
 
 ```css
