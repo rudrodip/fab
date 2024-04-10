@@ -7,13 +7,15 @@ const blogStyle = {
 };
 
 function fixArpit() {
-  const cols = document.querySelectorAll('.column');
-  cols.forEach((col) => {
-    col.classList.remove('column');
-  });
   const blogSection = document.querySelector(
     'body > div.container > div > div > section.section'
   );
+
+  const cols = blogSection.querySelectorAll('.column');
+  cols.forEach((col) => {
+    col.classList.remove('column');
+  });
+  
   for (const key in blogStyle) {
     blogSection.style[key] = blogStyle[key];
   }
